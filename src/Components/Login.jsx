@@ -5,7 +5,7 @@ import AllRouter from "../Components/AllRouter";
 function Login() {
   return (
     <Router>
-      <div style={{ visibility: "hidden" }} className="container ">
+      <div className="container ">
         <div className="SIGNIN">
           <Link to="/Signin">SIGN IN</Link>
         </div>

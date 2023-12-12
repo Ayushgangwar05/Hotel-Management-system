@@ -1,38 +1,687 @@
-.App {
-  text-align: center;
+.Headermain {
+  width: 100%;
+  height: 16vh;
+  display: flex;
+  align-items: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Headermain a {
+  margin-left: 2vw;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Headermain .Headerimg {
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Headermain .Headerimg img {
+  width: 90px;
+  margin-right: 2vw;
+  border-color: rgb(255, 0, 140);
+  border-style: solid;
+  border-radius: 10px 10px 10px 10px;
+}
+.Headerdiv {
+  width: 30vw;
+}
+.Headersubdiv {
+  margin-left: 2vw;
+}
+.Headerdiv .Headersubdiv span {
+  font-size: 15px;
+}
+.Headerdiv .Headersubdiv a {
+  display: flex;
+  position: absolute;
+  top: 8.5vh;
+  color: rgb(255, 0, 140);
+  font-size: 15px;
+}
+.Mainheader .Blankdiv {
+  border-bottom: 0ch;
+  width: 96%;
+  border-style: solid;
+  margin: auto;
+  border-color: rgb(216, 213, 213);
+}
+.MainNavbar {
+  width: 5vw;
+  height: 110vh;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+.MainNavbar .Navbar i {
+  font-size: 20px;
+  color: rgba(26, 26, 26, 0.638);
+}
+.Header1 {
+  width: 100%;
+  height: 18vh;
+  display: flex;
+  gap: 22vw;
+  background-color: rgba(215, 212, 212, 0.307);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.Header1 .Headersub {
+  margin-left: 3vw;
+  width: 30vw;
+}
+.Header1 .Headersub1 {
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+}
+.Header1 .Headersub1 .Headersubnotification {
+  width: 2.5vw;
+  height: 4.5vh;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+.Header1 .Headersub1 .Headersubnotification i {
+  color: black;
+  font-size: 20px;
+}
+.Header1 .Headersub1 .Headersub2 {
+  display: flex;
+  align-items: center;
+}
+.Header1 .Headersub1 .Headersub2 .Headersub3 h4 {
+  font-weight: 600;
+  font-size: 20px;
+  width: 11vw;
+}
+.Header1 .Headersub1 .Headersub2 .Headersub3 p {
+  font-weight: 300;
+  color: rgb(195, 192, 192);
+}
+.Header1 .Headersub1 .Headersub2 .Headersub4 {
+  margin-left: 2vw;
+}
+.Header1 .Headersub1 .Headersub2 .Headersub4 i {
+  font-size: 40px;
+  color: rgba(17, 16, 16, 0.678);
+}
+.Header1 .Headersub1 .Headersub2 .Headersub5 {
+  margin-left: 1vw;
+}
+.Header1 .Headersub1 .Headersub2 .Headersub5 i {
+  font-size: 32px;
+  color: rgba(17, 16, 16, 0.678);
+}
+.UIDesign {
+  width: 92%;
+  height: 170vh;
+  background-color: rgb(147, 220, 241);
+  margin-left: 4vw;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  z-index: 1;
+}
+.UIDesign .BlankdivUI {
+  width: 97%;
+  height: 170vh;
+  background-color: rgb(145, 240, 240);
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  margin-left: 6.2vw;
+}
+.UIDesign1 {
+  display: flex;
+}
+.UINAvbar {
+  margin-top: 20vh;
+  display: flex;
+  width: 95%;
+  margin-left: 1.3vw;
+  background-color: white;
+  height: 135vh;
+}
+.Cards {
+  display: flex;
+  gap: 2vw;
+  margin-left: 3vw;
+}
+.card {
+  border-radius: 10px 10px 10px 10px;
+}
+.Cards .card .row p {
+  font-size: 24px;
+  font-weight: 700;
+}
+.Cards .card .row h5 {
+  color: rgb(185, 185, 185);
+  font-size: 18px;
+}
+.Cards .card .row .col-md-4 {
+  margin-top: 2vh;
+}
+.Cards .card .row .col-md-4 i {
+  font-size: 50px;
+  margin-left: 2vw;
+}
+.UIDesign .UIDesign1 .UINAvbar .UIComponents {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(215, 212, 212, 0.307);
+}
+
+.cardend {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: 2vw;
+  height: 115vh;
+}
+.cardend .cardend1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2vh;
+}
+.cardend .cardend1 a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.cardend .cardend2 {
+  display: flex;
+  margin-top: 2vh;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cardend .cardend2 h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.cardend .cardend2 .cardend2leftright {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2vw;
+  margin-right: 1vw;
+}
+.cardend .cardendweek {
+  display: flex;
+  margin-top: 1vh;
+  gap: 1.1vw;
+  margin-left: 1vw;
+}
+.cardend .cardendweek a {
+  color: rgb(177, 177, 177);
+  text-decoration: none;
+  font-weight: 400;
+}
+.cardend .cardenddate {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  margin-left: 1.5vw;
+  margin-top: 2vh;
+}
+.cardend .cardenddate a {
+  color: black;
+  text-decoration: none;
+}
+
+.cardend .cardenddate .cardbackground {
+  width: 1.7vw;
+  height: 3.5vh;
+  background-color: black;
+  border-radius: 50%;
+}
+.cardend .cardendblank {
+  border-bottom-style: solid;
+  margin-top: 1vh;
+  width: 98%;
+  border-color: rgb(201, 196, 196);
+  position: relative;
+}
+.cardend .cardendblank i {
+  position: absolute;
+  top: -1.7vh;
+  margin-left: 4.4vw;
+}
+.cardend .cardendoffice {
+  display: flex;
+  justify-content: space-between;
+}
+.cardend .cardendoffice h5 {
+  font-size: 12px;
+  margin-top: 3vh;
+  margin-right: 1.2vw;
+  color: rgb(173, 172, 172);
+}
+.cardend .cardendoffice a {
+  font-size: 13px;
+  text-decoration: none;
+
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.cardend .cardendoffice .cardendoffivebackground {
+  width: 6vw;
+  height: 4vh;
+  border-radius: 20px 20px 20px 20px;
+  background-color: blue;
+  text-align: center;
+  margin-left: 4vw;
+  margin-top: 2vh;
+}
+.cardend .cardendprofile .cardendsubprofile {
+  display: flex;
+}
+.cardend .cardendprofile .cardendsubprofile a {
+  margin-left: 1vw;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cardend .cardendprofile .cardendsubprofile h6 {
+  margin-left: 1vw;
+  margin-top: 1vh;
+  font-size: 14px;
+  color: darkblue;
+  font-weight: 700;
+}
+.cardend .cardendprofile .cardendsubprofile p {
+  margin-left: 1vw;
+  margin-top: 0.5vh;
+  color: rgb(147, 146, 146);
+  font-size: 14px;
+}
+.cardend .cardendprofile .cardendsubprofilenamecard {
+  border-style: solid;
+  margin-left: 4vw;
+  margin-top: 1vh;
+  border-radius: 20px 20px 20px 20px;
+  border-color: rgb(182, 181, 181);
+  height: 14vh;
+  width: 15vw;
+}
+.cardend
+  .cardendprofile
+  .cardendsubprofilenamecard
+  .cardendsubprofilenamecardsub {
+  display: flex;
+}
+.cardend
+  .cardendprofile
+  .cardendsubprofilenamecard
+  .cardendsubprofilenamecardsub
+  h6 {
+  margin-left: 1vw;
+  margin-top: 2vh;
+  color: darkblue;
+  font-weight: 700;
+  font-size: 14px;
+}
+.cardend
+  .cardendprofile
+  .cardendsubprofilenamecard
+  .cardendsubprofilenamecardsub
+  p {
+  margin-left: 3vw;
+  margin-top: 1.6vh;
+  font-weight: 700;
+}
+.cardend
+  .cardendprofile
+  .cardendsubprofilenamecard
+  .cardendsubprofilenamecardsub1 {
+  display: flex;
+  width: 9vw;
+  background-color: rgb(194, 192, 192);
+  border-radius: 20px 20px 20px 20px;
+  align-items: center;
+  margin-left: 1vw;
+}
+
+.cardend
+  .cardendprofile
+  .cardendsubprofilenamecard
+  .cardendsubprofilenamecardsub1
+  i {
+  margin-left: 0.7vw;
+  color: green;
+}
+.cardend
+  .cardendprofile
+  .cardendsubprofilenamecard
+  .cardendsubprofilenamecardsub1
+  h6 {
+  margin-left: 0.2vw;
+  margin-top: 0.7vh;
+  color: green;
+  font-size: 12px;
+}
+
+.Campaign {
+  width: 100%;
+}
+.Campaign .Campaignsub {
+  display: flex;
+  justify-content: space-between;
+}
+.Campaign .Campaignsub a {
+  color: darkblue;
+  font-weight: 800;
+  text-decoration: none;
+}
+.Campaign .Campaignbooked {
+  display: flex;
+  gap: 1vw;
+  margin-top: 2vh;
+}
+.Campaign .Campaignbooked .Campaignbookedblank {
+  width: 1vw;
+  height: 2vh;
+  border-radius: 50%;
+  background-color: orange;
+  margin-top: 0.5vh;
+  margin-left: 2vw;
+}
+.Campaign .Campaignbooked .Campaignbookedheading h6 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.42);
+}
+.Campaign .Campaigngraph {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.Campaign .Campaigngraph h6 {
+  color: rgba(0, 0, 0, 0.453);
+}
+.Campaign .Capaigngraphmonth {
+  display: flex;
+  gap: 3vw;
+  margin-left: 4vw;
+}
+.Campaign .Capaigngraphmonth h6 {
+  color: rgba(0, 0, 0, 0.432);
+}
+.Bookinglist {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+}
+.Bookinglist .Bookinglistlink a {
+  color: darkblue;
+  font-weight: 800;
+}
+.Bookinglist .Bookinglistdot {
+  display: flex;
+  margin-top: 1vh;
+}
+.Bookinglist .Bookinglistdot a {
+  text-decoration: none;
+  display: flex;
+}
+.Bookinglist .Bookinglistdot .dot {
+  width: 0.6vw;
+  height: 1vh;
+  border-radius: 50%;
+  background-color: grey;
+}
+.Bookingmain .name1222 {
+  display: flex;
+  gap: 3.5vw;
+  align-items: center;
+  margin-top: 4vh;
+}
+.Bookingmain .name1222 .dotback {
+  width: 4vw;
+  height: 3vh;
+  background-color: rgb(255, 72, 0);
+  align-items: center;
+  border-radius: 20px 20px 20px 20px;
+}
+.container {
+  background-color: rgb(56, 55, 55);
+  width: 40%;
+  height: 20vh;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 3vw;
+  border-radius: 20px 20px 0px 0px;
+}
+.container .SIGNIN {
+  margin-left: 30px;
+}
+.container .SIGNIN a {
+  font-size: 26px;
+  color: wheat;
+  text-decoration: none;
+}
+.container .SIGNUP a {
+  font-size: 25px;
+  color: wheat;
+  text-decoration: none;
+}
+.container .SIGNIN a:hover {
+  color: rgb(247, 64, 64);
+}
+
+.container .SIGNUP a:hover {
+  color: rgb(247, 64, 64);
+}
+.Signinpage {
+  width: 40%;
+  height: 34vw;
+  background-color: rgb(36, 36, 36);
+  margin: auto;
+}
+.Signinpage .fname {
+  margin-left: 42px;
+}
+.Signinpage .fname label {
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+}
+.Signinpage .fname input {
+  width: 27vw;
+  height: 5vh;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.Signinpage .Password {
+  margin-left: 42px;
+}
+.Signinpage .Password label {
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+}
+.Signinpage .Password input {
+  width: 27vw;
+  height: 5vh;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 14px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.Slider {
+  margin: 50px 43px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.Slider h6 {
+  color: white;
+  font-weight: 100;
+}
+.Signinpage .Button {
+  text-align: center;
+}
+.Signinpage .Button button {
+  width: 27vw;
+  background-color: blue;
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  height: 5vh;
+  border-color: white;
+}
+.Signinpage .Blankdiv {
+  border-style: solid;
+  border-color: rgb(233, 231, 226);
+  border-width: 1px;
+  margin-top: 3vw;
+  width: 82%;
+  margin-left: 6vh;
+}
+.Signinpage .Forget {
+  width: 100%;
+  text-align: center;
+  margin-top: 3vw;
+}
+.Signinpage .Forget a {
+  text-decoration: none;
+  color: white;
+}
+.SignUp {
+  width: 40%;
+  height: 39vw;
+  background-color: rgb(36, 36, 36);
+  margin: auto;
+}
+.SignUp .fname {
+  margin-left: 42px;
+}
+.SignUp .fname label {
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+}
+.SignUp .fname input {
+  width: 27vw;
+  height: 5vh;
+  border-radius: 20px 20px 20px 20px;
+}
+.SignUp .Password {
+  margin-left: 42px;
+}
+.SignUp .Password label {
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+}
+.SignUp .Password input {
+  width: 27vw;
+  height: 5vh;
+  border-radius: 20px 20px 20px 20px;
+}
+.SignUp .RepeatPassword {
+  margin-left: 42px;
+}
+.SignUp .RepeatPassword label {
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+}
+.SignUp .RepeatPassword input {
+  width: 27vw;
+  height: 5vh;
+  border-radius: 20px 20px 20px 20px;
+}
+.SignUp .Email {
+  margin-left: 42px;
+}
+.SignUp .Email label {
+  font-size: 30px;
+  color: white;
+  font-weight: 300;
+}
+.SignUp .Email input {
+  width: 27vw;
+  height: 5vh;
+  border-radius: 20px 20px 20px 20px;
+}
+.SignUp .Button {
+  text-align: center;
+}
+.SignUp .Button button {
+  width: 27vw;
+  background-color: blue;
+  color: white;
+  border-radius: 20px 20px 20px 20px;
+  height: 5vh;
+  border-color: white;
+}
+.SignUp .Blankdiv {
+  border-style: solid;
+  border-color: rgb(233, 231, 226);
+  border-width: 1px;
+  margin-top: 3vw;
+  width: 82%;
+  margin-left: 6vh;
 }
